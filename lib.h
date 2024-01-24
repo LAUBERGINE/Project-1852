@@ -1,3 +1,15 @@
+#if defined(_WIN32)
+    #define CLEAR_COMMAND "cls"
+#elif defined(_WIN64)
+    #define CLEAR_COMMAND "cls"
+#elif defined(__CYGWIN__) && !defined(_WIN32)
+    #define CLEAR_COMMAND "cls"
+#elif defined(__linux__)
+    #define CLEAR_COMMAND "clear"
+#elif defined(__APPLE__) && defined(__MACH__)
+    #define CLEAR_COMMAND "clear"
+#endif
+
 #ifndef LIB_H
 #define LIB_H
 

@@ -22,26 +22,26 @@ int main() {
 
         switch (choix) {
             case 1:
-                system("cls");
+                system(CLEAR_COMMAND);
                 nb1 = rand() % 73 + 1;
                 ajouter_identifiants(keyUser, keyMachine, nb1);
                 break;
             case 2:
-                system("cls");
+                system(CLEAR_COMMAND);
                 modifier_identifiants(keyUser, keyMachine);
                 break;
             case 3:
-                system("cls");
+                system(CLEAR_COMMAND);
                 supprimer_identifiants(keyUser, keyMachine);
                 break;
             case 4:
-                system("cls");
+                system(CLEAR_COMMAND);
                 visualiser_identifiants(keyUser, keyMachine);
                 break;
             case 5:
                 break;
             default:
-                system("cls");
+                system(CLEAR_COMMAND);
         }
     } while (choix != 5);
 
