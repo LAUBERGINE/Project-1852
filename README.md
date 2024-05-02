@@ -30,14 +30,14 @@ make update
 
 Interface Global 
 
-![InterfaceUser](https://cdn.discordapp.com/attachments/930944345547362417/1194401205728858142/image.png)
+![InterfaceUser](https://cdn.eggplants.fr/img/github/c89ba5e/interfaceuser_c89ba5e.png)
 
-![InterfaceAddUser](https://cdn.discordapp.com/attachments/930944345547362417/1194402384294719488/image.png)
+![InterfaceAddUser](https://cdn.eggplants.fr/img/github/c89ba5e/interfaceadduser_c89ba5e.png)
 
-![InterfaceVsUser](https://cdn.discordapp.com/attachments/930944345547362417/1194402812214386769/image.png)
+![InterfaceVsUser](https://cdn.eggplants.fr/img/github/c89ba5e/interfacevsuser_c89ba5e.png)
 
 Chiffrement des mots de passe dans le `password.txt`
-![ChiffrementPassword](https://cdn.discordapp.com/attachments/930944345547362417/1194404046929395732/image.png)
+![ChiffrementPassword](https://cdn.eggplants.fr/img/github/c89ba5e/chiffrementmotdepasse_c89ba5e.png)
 
 ## Autheur
 
